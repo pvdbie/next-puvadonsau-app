@@ -17,7 +17,7 @@ export default function page() {
         <h1 className="text-3xl">  I find fulfillment in blending visual design with the power of coding to create meaningful experiences.
           </h1>
           <br />
-          <span className="text-gray-400 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et odit quas vitae aut possimus natus accusantium! Ex ipsam neque, quia consectetur alias quaerat tenetur quae possimus ab cumque, dolore perferendis.</span>
+          <span className="text-gray-400 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime tempora at neque a adipisci nulla voluptatem? Mollitia, officiis, architecto earum voluptates obcaecati corrupti voluptatem . Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime tempora at neque a adipisci nulla voluptatem? Mollitia, officiis, architecto earum voluptates obcaecati corrupti voluptatem ..</span>
           <FloatingMenu/>
           
           

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import A1 from "@/app/assets/A1.jpg";
+import A1 from "@/app/assets/A2.jpg";
 import {
   FaFacebookF,
   FaInstagram,
@@ -40,18 +40,49 @@ export default function ProfileCard() {
 
       {/* Social */}
       <div className="flex justify-center gap-3 mb-5">
-        <AiFillFacebook className="hover:text-orange-500 cursor-pointer" />
-        <FaTwitter className="hover:text-orange-500 cursor-pointer" />
-        <FaInstagram className="hover:text-orange-500 cursor-pointer" />
-        <FaLinkedinIn className="hover:text-orange-500 cursor-pointer" />
+        <a
+  href="https://facebook.com/yourprofile"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-orange-500 cursor-pointer">
+    <AiFillFacebook  />
+  </a>
+  <a
+  href="https://x.com/?lang=th"
+  target="_blank"
+  rel="noopener noreferrer" 
+  className="hover:text-orange-500 cursor-pointer">
+        <FaTwitter />
+        </a>
+        <a
+  href="https://www.instagram.com/?hl=th"
+  target="_blank"
+  rel="noopener noreferrer" 
+  className="hover:text-orange-500 cursor-pointer">
+        <FaInstagram  />
+        </a>
+        <a
+  href="https://www.linkedin.com/home?originalSubdomain=th"
+  target="_blank"
+  rel="noopener noreferrer" 
+  className="hover:text-orange-500 cursor-pointer">
+        <FaLinkedinIn  />
+        </a>
+         <a
+  href="https://www.google.com/"
+  target="_blank"
+  rel="noopener noreferrer" 
+  className="hover:text-orange-500 cursor-pointer">
         <FaGoogle className="hover:text-orange-500 cursor-pointer" />
-        
+        </a>
       </div>
 
       {/* Button */}
+      <a href="https://line.me/ti/p/5mBGEkv_U5" target="_blank">
       <button className="w-full bg-orange-500 hover:bg-orange-600 text-black font-semibold py-2 rounded-xl transition">
         HIRE ME !
       </button>
+      </a>
     </div>
   );
 }
